@@ -52,7 +52,7 @@ if (tu_numero > 0) {
     console.log("Tu número es cero");
 }
 
-//BUCLE WHILE
+//4 BUCLE WHILE
 
 //ejer 1
 
@@ -73,3 +73,19 @@ while(contraseña !== "1234"){
   
 } console.log("contraseña correcta")
 
+
+// 5 Bucle for
+
+// ejer 1
+
+for (let i = 1; i <= 10; i++){
+    console.log(i);
+}
+
+// tabla de multiplicar
+
+let TablaX = prompt("Ingresa un numero: ");
+TablaX = Number(TablaX);
+for(let i = 1; i<= 10; i++){
+    console.log(TablaX + "X " + i + " = " + (TablaX * i))
+}
