@@ -1,6 +1,9 @@
+// 1. VARIABLES Y DATOS ejer 1
+
 let nombre = "Lili";
 let edad = 40;
 
+// ejer 2
 let estudiante = true;
 let sin_valor;
 let valor_nulo = null;
@@ -9,7 +12,7 @@ console.log("sinValor:", sin_valor);
 console.log("valorNulo:", valor_nulo); 
 
 
-//2. ejercicio 1
+// 2. INGRESO DE DATOS POR TECLADO ejercicio 1
 const prompt = require("prompt-sync") ();
 
 let año_nacimiento =  prompt("Ingresa tu año de nacimiento: ")
@@ -25,7 +28,7 @@ let resultado = Number(n1) + Number(n2);
 console.log("La suma es: ", resultado)
 
 
-//ejercicio 3
+// 3. CONDICIONALES ej 1
 
 let tu_edad = prompt("Ingresa tu edad: ")
 
@@ -48,3 +51,25 @@ if (tu_numero > 0) {
 } else {
     console.log("Tu número es cero");
 }
+
+//BUCLE WHILE
+
+//ejer 1
+
+let ingresar_num = prompt("Ingresa un número: ");
+ingresar_num = Number(ingresar_num); 
+
+let i = 1;
+while (i <= ingresar_num){
+    console.log(i);
+    i++;
+}
+
+//ejer 2 contraseña
+let contraseña;
+
+while(contraseña !== "1234"){
+    contraseña = prompt("Ingresa tu contraseña: ");
+  
+} console.log("contraseña correcta")
+
