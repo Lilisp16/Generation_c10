@@ -20,7 +20,7 @@ const miInventario =  [
 function buscarProducto(nombre, inventario ){
     for (let i= 0; i< inventario.length; i++){
     
-    if(inventario[i].nombre === nombre){      //=== comparmos su valro y tipo de dato
+    if(inventario[i].nombre === nombre){      //=== comparmos su valor y tipo de dato
         return inventario[i];
     
     }
