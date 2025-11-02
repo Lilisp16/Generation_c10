@@ -1,4 +1,4 @@
-//Clase o función constructora: es como un “molde” para crear objetos.
+//Clase o función constructora: es como un 'molde' para crear objetos.
 //Métodos dentro de la clase: son funciones que el objeto puede ejecutar.
 //this siempre apunta al objeto actual que se está creando o usando.
 //this Se usa cuando se quiere acceder o modificar las propiedades del objeto dentro de sus métodos.
